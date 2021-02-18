@@ -3,7 +3,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background: url(../img/jaguar-xe.jpg) no-repeat center center fixed; 
+    background: url(../img/jaguar-xe.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,7 +16,7 @@ body {
     width: 600px;
     color: white;
     padding: 10px 30px;
-    margin: 5em
+    margin: 80px;
 }
 
 .text {
@@ -24,15 +24,27 @@ body {
 }
 .button {
     background-color: #DB3030;
-    width: 130px;
-    height: 33px;
+    width: 150px;
+    height: 30px;
     display: block;
     text-align: center;
-    line-height: 2;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 0px;
+    margin-bottom: 10px;
 }
 
 .link {
     text-decoration: none;
     color: white;
     font-size: 14px;
+}
+
+@media (max-width: 600px){
+    .content {
+        margin: 40px 20px 0px;
+        width: auto;
+    }
 }
